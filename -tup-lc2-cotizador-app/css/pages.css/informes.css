@@ -1,0 +1,265 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    width: 100%;
+    background-color: gray;
+}
+
+header {
+    height: 100px;
+    margin: 10px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../img/fondo_header.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    font-size: 4vw;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    color:  rgb(255, 215, 0);
+}
+
+.section-main {
+    display: flex;
+}
+
+section {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    min-width: auto;
+    max-width: 20%;
+    margin: 10px;
+    border-radius: 24px;
+}
+
+nav {
+    display: flex;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+nav ul li {
+    background-color: rgb(255, 215, 0);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+nav ul li:hover {
+    background-color: gray;
+}
+
+.seleccionado li {
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.8);
+}
+
+.recomendaciones {
+    display: flex;
+    margin-top: auto;
+    padding: 20px;
+}
+
+.img-comentario {
+    flex: 0 0 auto;
+    margin-right: 15px;
+}
+
+.img-comentario img {
+    border-radius: 50%;
+    width: 80px;
+}
+
+.comentario {
+    flex: 1;
+    color:aliceblue;
+    font-size: 12px;
+}
+
+main {
+    flex: 1;
+}
+
+.migas {
+    text-align: end;
+    padding-right: 40px;
+}
+
+.migas a {
+    color: rgb(255, 215, 0);
+}
+
+.contenido-principal {
+    background-color: rgb(0, 0, 0);
+    min-height: 450px;
+    max-height: auto;
+    margin: 10px;
+    width: 97%;
+    border-radius: 90px 40px;
+
+}
+
+.contenido-principal h2 {
+    text-align: center;
+    padding: 10px 10px;
+    color: rgb(255, 215, 0);
+}
+
+.contenedor_monedas {
+    padding: 10px;
+    display: flex;
+}
+
+.monedas {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgb(255, 215, 0);
+    border-radius: 15px;
+    margin-left: 20px;
+    max-height: 75px;
+}
+
+.select-boton {
+    display: flex;
+}
+
+.monedas select {
+    height: 45px;
+    margin: 8px;
+}
+
+.boton_busqueda {
+    height: 45px;
+    margin-top: 8px;
+}
+
+.graficos {
+    width: 750px;
+    height: 220px;
+    background-color: gray;
+    margin-left: 80px;
+    margin-right: 40px;
+}
+
+.graficos img {
+    width: 100%;
+    height: 100%;
+}
+
+.compartir {
+    margin-top: 100px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: 45px;
+    margin-bottom: 15px;
+}
+
+.compartir button {
+    background-image: url('../../img/compartir.png');
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+}
+
+.compartir a {
+    color:  rgb(255, 215, 0);
+}
+
+.contenedor-tabla {
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-tabla table {
+    border-radius: 25px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    background-color: #e1eafa;
+}
+
+th,td {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(175, 208, 240);
+    border-color: rgb(175, 208, 240);
+}
+
+.moneda-seleccionada {
+    text-align: left;
+    background-color: rgb(99, 167, 245);
+    padding: 1px;
+}
+
+.flechas {
+    height: 25px;
+}
+
+footer {
+    background-color: #000000;
+    color: rgb(255, 215, 0);
+    margin: 10px;
+    border-radius: 25px;
+}
+
+footer a {
+    color: rgb(255, 215, 0);
+}
+
+.footer-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 5%;
+    padding: 20px;
+}
+
+.footer-cards>div:last-child {
+    text-align: right;
+    padding-top: 50px;
+}
+
+.contenedor-f>p {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}

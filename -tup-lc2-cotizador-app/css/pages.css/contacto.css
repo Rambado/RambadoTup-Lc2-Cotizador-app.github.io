@@ -1,0 +1,253 @@
+/*ESTILO GLOBAL*/
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    width: 100vw;
+    background-color: gray;
+}
+/*ESTILO ENCABEZADO*/
+header {
+    height: 100px;
+    margin: 10px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../img/fondo_header.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    font-size: 4vw;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    color:  rgb(255, 215, 0);
+}
+/*SECCIONES PRINCIPALES*/
+.section-main {
+    display: flex;
+    width: 100vw;
+}
+
+/*ESTILO NAVEGACION*/
+section {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    min-width: auto;
+    max-width: 20%;
+    margin: 10px;
+    border-radius: 24px;
+}
+
+nav {
+    display: flex;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+nav ul li {
+    background-color: rgb(255, 215, 0);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+nav ul li:hover {
+    background-color: gray;
+}
+
+.seleccionado li {
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.8);
+}
+
+/*ESTILO RECOMENDACIONES*/
+.recomendaciones {
+    display: flex;
+    margin-top: auto;
+    padding: 20px;
+}
+
+.img-comentario {
+    flex: 0 0 auto;
+    margin-right: 15px;
+}
+
+.img-comentario img {
+    border-radius: 50%;
+    width: 80px;
+}
+
+.comentario {
+    flex: 1;
+    color:aliceblue;
+    font-size: 12px;
+}
+
+/*SECCION PRINCIPAL*/
+main {
+    flex: 1;
+}
+
+.migas {
+    text-align: end;
+    margin-right: 40px;
+}
+
+.migas a {
+    color: rgb(255, 215, 0);
+}
+
+.contenido-principal {
+    background-color: rgb(0, 0, 0);
+    height: 450px;
+    margin: 10px;
+    border-radius: 24px;
+}
+
+.contenido-principal h2 {
+    text-align: center;
+    padding: 10px 10px;
+    color:  rgb(255, 215, 0);
+}
+
+/*ESTILO FORMULARIO y TEXTO*/
+.formulario-texto {
+    display: flex;
+}
+
+.contenedor-formulario {
+    margin: 15px;
+    width: 50%;
+}
+
+.formulario {
+    display: flex;
+}
+
+fieldset {
+    height: 250px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: gray;
+    border: grey;
+    width: 450px;
+}
+
+legend {
+    background-color: gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.botones-formulario {
+    margin: 5px 0px 0px 100px;
+}
+
+.limpiar {
+    background-color: rgb(191, 192, 192);
+    height: 30px;
+    width: 100px;
+}
+
+.enviar {
+    background-color: rgb(140, 184, 143);
+    height: 30px;
+    width: 100px;
+}
+
+.contenedor-texto {
+    display:flex;
+    flex-direction: column;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.datos-contacto {
+    display: flex;
+    gap: 3%;
+    background-color: gray;
+    align-items: center;
+    border-radius: 15px;
+    width: 335px;
+    padding: 15px;
+}
+
+.tex {
+    display: flex;
+    flex-direction: column;
+}
+
+.datos-contacto img {
+    height: 80px;
+}
+
+.parrafos {
+    text-align:center;
+    width: 480px;
+    color: rgb(255, 215, 0);
+}
+
+.dolarapi {
+    margin-top: 55px;
+}
+
+.dolarapi a {
+    color: rgb(255, 215, 0);
+}
+
+/*ESTILO PIE DE PAGINA*/
+footer {
+    background-color: #000000;
+    color: rgb(255, 215, 0);
+    margin: 10px;
+    border-radius: 25px;
+}
+
+footer a {
+    color: rgb(255, 215, 0);
+}
+
+.footer-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 5%;
+    padding: 20px;
+}
+
+.footer-cards>div:last-child {
+    text-align: right;
+    padding-top: 50px;
+}
+
+.contenedor-f>p {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
